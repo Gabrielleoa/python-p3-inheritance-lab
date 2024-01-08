@@ -3,6 +3,9 @@
 from user import User
 
 class Student(User):
+
+    def __init__(self, knowledge):
+        self.knowledge=knowledge
     
     def learn(self):
         pass
